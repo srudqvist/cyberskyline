@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2022-09-13-17-58-44
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1444614390.715750	F1EaOl1XrM22MgVSu2	129.2.205.242	129.2.205.242	Cyd3ua46niB3VarAma	FTP_DATA	0	(empty)	application/zip	-	0.000000	-	T	28183	-	0	0	F	-	-	-	-	-	-	-
+1444614286.523167	FL9vZrDAiOojkuTG1	129.2.205.242	129.2.205.242	C9aRJJ2v2J7PQOfOCl	FTP_DATA	0	(empty)	text/plain	-	0.000000	-	T	324	-	0	0	T	-	-	-	-	-	-	-
+1444614380.544532	FA3onh1iT2Mzfy1e8k	129.2.205.242	129.2.205.242	CgXv534hTLESVjvf7a	FTP_DATA	0	(empty)	text/plain	-	0.000000	-	T	329	-	0	0	F	-	-	-	-	-	-	-
+#close	2022-09-13-17-58-45

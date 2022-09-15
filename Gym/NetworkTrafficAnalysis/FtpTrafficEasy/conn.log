@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2022-09-13-17-58-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1444614390.715750	Cyd3ua46niB3VarAma	129.2.205.242	20	129.2.205.242	53241	tcp	ftp-data	-	-	-	SH	-	-	0	DF	20	28983	0	0	-
+1444614286.523167	C9aRJJ2v2J7PQOfOCl	129.2.205.242	20	129.2.205.242	53235	tcp	ftp-data	-	-	-	OTH	-	-	0	D	1	364	0	0	-
+1444614320.718427	CEKcCc275NmYKthEVa	129.2.205.242	53236	129.2.205.242	20	tcp	-	-	-	-	OTH	-	-	0	D	20	28983	0	0	-
+1444614380.544532	CgXv534hTLESVjvf7a	129.2.205.242	20	129.2.205.242	53240	tcp	ftp-data	-	-	-	OTH	-	-	0	D	1	369	0	0	-
+1444614228.444265	CaHsQR39TdklLfV4R9	129.2.205.242	53233	129.2.205.242	21	tcp	ftp	33.742859	37	223	OTH	-	-	0	^dD	3	157	4	383	-
+1444614266.243132	CtZt3Z2X0Phwdw1f31	129.2.205.242	53234	129.2.205.242	21	tcp	ftp	59.529704	132	501	OTH	-	-	0	^dD	8	452	11	941	-
+1444614331.825647	CL8KTlRtnl777EG35	129.2.205.242	53237	129.2.205.242	21	tcp	ftp	76.549334	240	628	OTH	-	-	0	^dD	13	760	16	1268	-
+#close	2022-09-13-17-58-45

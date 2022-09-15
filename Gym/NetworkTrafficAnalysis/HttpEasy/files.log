@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2022-09-13-22-00-43
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1299012313.363494	FvjDAd3LgVjWA8FpNb	174.143.213.184	192.168.1.140	CuAAbO197B8HC8f6Ak	HTTP	0	(empty)	image/png	-	0.103277	-	F	21684	21684	0	0	F	-	-	-	-	-	-	-
+#close	2022-09-13-22-00-43
