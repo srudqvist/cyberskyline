@@ -16,3 +16,30 @@ Hit "okay", now the checksum should be visible.
 ### What is the IV for the first packet in the capture in hexadecimal representation?
 Find the Initialization Vector value by clicking it in the pcap.
 
+## Two 
+Run `aircrack-ng PCAP2.cap`
+
+### How many IVs are in the packet capture?
+Scroll up in the result and see the answer (24592)
+
+### What is the key size of the wireless network in bits?
+The key is `DE:AD:10:CC:D1:5E:A5:EC:DC:C2:D6:7A:CA` 13 bytes * 8 = 104  
+Search for WEP Keys 104 and see that it matches the 128 bit encryption
+
+### What is the IV for the first packet in the capture (in hex)?
+Click the first packet, open IEEE, open WEP, click the IV and it is displayed on the right
+
+### What is the WEP key?
+Found by airckrack-ng
+
+### What is the TCP checksum of the first packet in the capture (in hex)?
+Follow the same steps as for task One
+
+## Three
+Run `airckrack-ng PCAP3.cap`
+
+### What is the MAC address of the router?
+The answer is displayed from the aircrack result
+
+### What is the ESSID of the wifi network?
+The answer is displayed from the aircrack result

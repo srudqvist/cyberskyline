@@ -12,9 +12,10 @@ Using *hash identifier* we find the format of the hashes, the first one is: `md5
 `  
 * Gave two options `Candidates.#1....: SKY-HQNT-0416 -> SKY-HQNT-6497` 
 
-* Command for first one `hashcat -m 0 -a 3 71b816fe0b7b763d889ecc227eab400a "SKY-HQNT-?d?d?d?d"
+* Command for second one `hashcat -m 0 -a 3 71b816fe0b7b763d889ecc227eab400a "SKY-HQNT-?d?d?d?d"
 `  
 * Gave two different options `Candidates.#1....: SKY-HQNT-3786 -> SKY-HQNT-2984`
+* Run either command again and get the message that the hash is found in potfile, append --show and run again to see the answer.
 
 ## Windows Passwords
 * Download the XP Special Rainbow Tables from sourceforge.net  
