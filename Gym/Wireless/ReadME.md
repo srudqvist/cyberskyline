@@ -43,3 +43,36 @@ The answer is displayed from the aircrack result
 
 ### What is the ESSID of the wifi network?
 The answer is displayed from the aircrack result
+
+### What is the password for the wireless network?
+run `aircrack-ng PCAP3.cap -w /usr/share/wordlists/rockyou.txt` to get the password
+
+### What is the IP address of the router?
+Click the ARP protocol from the tp-link to Apple, it says sender IP   
+IP: 192.168.0.254
+
+### What company manufactured the router?
+Visible in the pcap (TP-LINK)
+Mac Address: c0:4a:00:80:76:e4
+
+### What is the model of the router?
+Find an http packet going to the router and follow the tcp stream
+Model name: TL-WR702N
+
+### What firmware version is installed on the router?
+
+
+### What release number is the router using?
+
+### What is the IP address of the user who logged into the router admin panel?
+EAPOL protocol is used to log in to routers?  
+Apple_0b:26:ba MAC:80:e6:50:0b:26:ba, IP: 192.168.0.101  
+After looking around in the pcap for a long time, this is the device that had a lot of connections to the router.  
+
+### What is the MAC address of the first victim of the deauth attack?
+Sort on the info tab and look for Deauthentication  
+The first packet should contain the first victim  
+First packet mac: b8:e8:56:47:44:38  
+
+### Q11 - What is the MAC address of the second victim of the 
+The only other device to show up in the sort has the MAC: 80:e6:50:0b:26:ba  
