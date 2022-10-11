@@ -1,0 +1,48 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2022-10-10-22-33-43
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1265236012.632570	FUbSil1vCHqc0wbAYh	208.88.120.8	10.0.0.132	CZfbGkanumB0PXcd	HTTP	0	(empty)	text/html	-	0.086127	-	F	9491	-	0	0	F	-	-	-	-	-	-	-
+1265236025.948179	F7BkDf4JfyrAwAt7O	209.131.36.159	10.0.0.132	CGyYAgjLN4sflkDCe	HTTP	0	(empty)	text/plain	-	0.000000	-	F	148	-	0	0	F	-	-	-	-	-	-	-
+1265236026.067316	FacJUla0dkQIEqnc7	69.147.76.15	10.0.0.132	CCLlAA35e8u1mS15U4	HTTP	0	(empty)	text/html	-	0.000000	-	F	171	-	0	0	F	-	-	-	-	-	-	-
+1265236026.283180	Fn12wl3uJ4GGfcP7rb	67.195.160.76	10.0.0.132	C6rXRK3nHv0ZpJm5h4	HTTP	0	(empty)	text/html	-	0.193734	-	F	78676	-	0	0	F	-	-	-	-	-	-	-
+1265236026.546090	F8JDfH1WosoHyGp7q2	67.195.160.76	10.0.0.132	Cr3JsP2BUoXRAZr5ke	HTTP	0	(empty)	image/x-icon	-	0.000000	-	F	318	-	0	0	F	-	-	-	-	-	-	-
+1265236026.799395	FyvbXH3NQERDXX1Vz8	216.115.96.174	10.0.0.132	ClVW2x3lkan4zBF0Q1	HTTP	0	(empty)	text/plain	-	0.000000	-	F	1022	-	0	0	F	-	-	-	-	-	-	-
+1265236026.800790	FLvAEr3l34j4L5YRm6	216.115.96.174	10.0.0.132	CBqf3u3zZkSYTq6ul1	HTTP	0	(empty)	image/gif	-	0.000000	-	F	43	43	0	0	F	-	-	-	-	-	-	-
+1265236026.817104	FfReWk2Ai21fcGk3le	216.115.96.174	10.0.0.132	CTcel94ZPjY2XrN959	HTTP	0	(empty)	text/plain	-	0.000000	-	F	978	-	0	0	F	-	-	-	-	-	-	-
+1265236026.612796	FZWM3T2zqtgBNYrSg1	67.195.160.76	10.0.0.132	Cm4odG2vlzLuKxJcK4	HTTP	0	(empty)	text/html	-	0.272101	-	F	119772	-	0	0	F	-	-	-	-	-	-	-
+1265236026.825330	FliLSf1RmjycAWsom1	216.115.96.174	10.0.0.132	CM1WAD1Dj5gZ7XLRhb	HTTP	0	(empty)	text/plain	-	0.089834	-	F	107361	-	0	0	F	-	-	-	-	-	-	-
+1265236026.970384	FUGPb62KANVMy8pTJ1	216.115.96.174	10.0.0.132	ClVW2x3lkan4zBF0Q1	HTTP	0	(empty)	image/png	-	0.000227	-	F	1750	1750	0	0	F	-	-	-	-	-	-	-
+1265236027.013219	FcAhf72wh9lMSV0hh7	216.115.96.174	10.0.0.132	CuQCSwMkzLBOVIP8a	HTTP	0	(empty)	image/png	-	0.000000	-	F	545	545	0	0	F	-	-	-	-	-	-	-
+1265236027.034950	FDBIrc4oIzaFWMP9kh	216.115.96.174	10.0.0.132	CTcel94ZPjY2XrN959	HTTP	0	(empty)	image/jpeg	-	0.000840	-	F	1872	1872	0	0	F	-	-	-	-	-	-	-
+1265236027.037805	FX3Dw30nRO3mWcfm1	216.115.96.174	10.0.0.132	CM1WAD1Dj5gZ7XLRhb	HTTP	0	(empty)	image/jpeg	-	0.001379	-	F	5675	5675	0	0	F	-	-	-	-	-	-	-
+1265236027.015638	FbNQGB4QealoKqP2A8	216.115.96.174	10.0.0.132	ChbUIi2oe2n96IuEei	HTTP	0	(empty)	image/png	-	0.023782	-	F	2011	2011	0	0	F	-	-	-	-	-	-	-
+1265236027.040391	FRNNmwMu1MnljatKe	216.115.96.174	10.0.0.132	ClVW2x3lkan4zBF0Q1	HTTP	0	(empty)	image/jpeg	-	0.000043	-	F	1937	1937	0	0	F	-	-	-	-	-	-	-
+1265236027.082316	FOFb3R2eAmsFDjGhZi	216.115.96.174	10.0.0.132	ChbUIi2oe2n96IuEei	HTTP	0	(empty)	image/png	-	0.000000	-	F	980	980	0	0	F	-	-	-	-	-	-	-
+1265236027.067167	FD8dit4J0Dm2TH3XP4	216.115.96.174	10.0.0.132	CdIk1B1kufRnxohd59	HTTP	0	(empty)	image/gif	-	0.023171	-	F	2270	2270	0	0	F	-	-	-	-	-	-	-
+1265236027.068955	FArqsm3VziSbt6iZX5	216.115.96.174	10.0.0.132	CpbbuV29BI1zUmEdx6	HTTP	0	(empty)	image/jpeg	-	0.021432	-	F	2167	2167	0	0	F	-	-	-	-	-	-	-
+1265236027.047445	F9XTEY3Vb2t7BtMg9l	216.115.96.174	10.0.0.132	CuQCSwMkzLBOVIP8a	HTTP	0	(empty)	image/png	-	0.045696	-	F	8549	8549	0	0	F	-	-	-	-	-	-	-
+1265236027.072136	FSmVru1rJxyL47JfE8	216.115.96.174	10.0.0.132	CTcel94ZPjY2XrN959	HTTP	0	(empty)	image/jpeg	-	0.021965	-	F	4436	4436	0	0	F	-	-	-	-	-	-	-
+1265236027.032537	Fea79xGXj7VuHYo07	216.115.96.174	10.0.0.132	CBqf3u3zZkSYTq6ul1	HTTP	0	(empty)	image/jpeg	-	0.074036	-	F	18568	18568	0	0	F	-	-	-	-	-	-	-
+1265236027.088937	FQoOR02Y0vXfK8gmxj	216.115.96.174	10.0.0.132	CJLL0p4vZULd9NSGK6	HTTP	0	(empty)	image/gif	-	0.022737	-	F	4071	4071	0	0	F	-	-	-	-	-	-	-
+1265236027.163938	FrVNVm34iL6vQ6NqU5	216.115.96.174	10.0.0.132	CvCQ2QJHTywbtPpN2	HTTP	0	(empty)	image/png	-	0.014447	-	F	2125	2125	0	0	F	-	-	-	-	-	-	-
+1265236027.692986	FaSCJg2SiGNVAlwtRc	98.136.114.40	10.0.0.132	C3wp04EDpyKDcRvv5	HTTP	0	(empty)	image/gif	-	0.000000	-	F	43	43	0	0	F	-	-	-	-	-	-	-
+1265236027.719179	FWjrxf6vrl4eDqnV6	216.115.96.174	10.0.0.132	ClVW2x3lkan4zBF0Q1	HTTP	0	(empty)	application/javascript	-	0.035239	-	F	15160	-	0	0	F	-	-	-	-	-	-	-
+1265236027.701894	FzMObg2JoYEcm4r419	216.115.96.174	10.0.0.132	CM1WAD1Dj5gZ7XLRhb	HTTP	0	(empty)	image/jpeg	-	0.052640	-	F	8847	8847	0	0	F	-	-	-	-	-	-	-
+1265236027.830669	FXqJZtp8rJFuZBe8j	216.115.96.174	10.0.0.132	CdIk1B1kufRnxohd59	HTTP	0	(empty)	text/plain	-	0.000000	-	F	2040	-	0	0	F	-	-	-	-	-	-	-
+1265236027.830748	Ffmf1J3UCd3WEKsB6e	216.115.96.174	10.0.0.132	CpbbuV29BI1zUmEdx6	HTTP	0	(empty)	text/plain	-	0.085042	-	F	101130	-	0	0	F	-	-	-	-	-	-	-
+1265236027.999447	FtHjp7148hJatrTsad	174.35.24.41	10.0.0.132	CLujGSx7UlpQdugJ7	HTTP	0	(empty)	image/png	-	0.000000	-	F	95	95	0	0	F	-	-	-	-	-	-	-
+1265236028.142134	F5VW6c3fQs9iQTDvDl	209.62.187.18	10.0.0.132	CM262u1CiHtW63l9Nc	HTTP	0	(empty)	image/gif	-	0.000000	-	F	43	43	0	0	F	-	-	-	-	-	-	-
+1265236028.188237	F7uuYL2Tk2WCi2j6S	76.13.6.132	10.0.0.132	CCnWEvpBJgT1U62Qj	HTTP	0	(empty)	image/gif	-	0.000000	-	F	43	-	0	0	F	-	-	-	-	-	-	-
+1265236028.084803	F3EH651SZLunc3sgCe	216.115.96.174	10.0.0.132	CTcel94ZPjY2XrN959	HTTP	0	(empty)	text/plain	-	0.131139	-	F	143227	-	0	0	F	-	-	-	-	-	-	-
+1265236030.236418	FKGm804aH31fWg3RT	205.213.110.139	10.0.0.132	C1jZ7dmkpRrvwJN7j	HTTP	0	(empty)	image/gif	-	0.000000	-	F	42	42	0	0	F	-	-	-	-	-	-	-
+1265236030.160532	F2qrSf4s6bKpOJY2o	216.115.96.174	10.0.0.132	CBqf3u3zZkSYTq6ul1	HTTP	0	(empty)	application/x-shockwave-flash	-	0.095131	-	F	27739	27739	0	0	F	-	-	-	-	-	-	-
+1265236030.287266	FGSw4EXEbC9aaCMpj	66.119.34.43	10.0.0.132	CdsrFs41GqVLAgJxQl	HTTP	0	(empty)	image/gif	-	0.000000	-	F	42	42	0	0	F	-	-	-	-	-	-	-
+1265236189.917084	FDaRHq1U53CLRjrKeg	91.189.88.40	10.0.0.132	Cr59aR1DQuAzNCqfj	FTP_DATA	0	(empty)	text/plain	-	0.000000	-	F	64	-	0	0	F	-	-	-	-	-	-	-
+1265236193.347670	FR1eEW2CWRjEbw6h14	91.189.88.40	10.0.0.132	CQzf8L1LVABwELesFj	FTP_DATA	0	(empty)	text/plain	-	0.000000	-	F	321	-	0	0	F	-	-	-	-	-	-	-
+1265236195.967781	FCS6Jb14ZxZAG1EV1b	91.189.88.40	10.0.0.132	CQwSD32mnnBgOb4zHc	FTP_DATA	0	(empty)	text/plain	-	0.870908	-	F	83934	-	0	0	F	-	-	-	-	-	-	-
+#close	2022-10-10-22-33-44

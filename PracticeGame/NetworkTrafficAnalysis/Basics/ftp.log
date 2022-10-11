@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ftp
+#open	2022-10-10-22-33-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	user	password	command	arg	mime_type	file_size	reply_code	reply_msg	data_channel.passive	data_channel.orig_h	data_channel.resp_h	data_channel.resp_p	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	count	count	string	bool	addr	addr	port	string
+1265236189.032522	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	PASV	-	-	-	227	Entering Passive Mode (91,189,88,40,134,154)	T	10.0.0.132	91.189.88.40	34458	-
+1265236189.416223	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	RETR	ftp://91.189.88.40/	-	-	550	Failed to open file.	-	-	-	-	-
+1265236189.538889	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	PASV	-	-	-	227	Entering Passive Mode (91,189,88,40,230,37)	T	10.0.0.132	91.189.88.40	58917	-
+1265236192.463125	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	PASV	-	-	-	227	Entering Passive Mode (91,189,88,40,102,15)	T	10.0.0.132	91.189.88.40	26127	FDaRHq1U53CLRjrKeg
+1265236192.834197	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	RETR	ftp://91.189.88.40/ubuntu	-	-	550	Failed to open file.	-	-	-	-	FDaRHq1U53CLRjrKeg
+1265236192.956602	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	PASV	-	-	-	227	Entering Passive Mode (91,189,88,40,77,243)	T	10.0.0.132	91.189.88.40	19955	FDaRHq1U53CLRjrKeg
+1265236195.070462	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	PASV	-	-	-	227	Entering Passive Mode (91,189,88,40,26,221)	T	10.0.0.132	91.189.88.40	6877	FR1eEW2CWRjEbw6h14
+1265236195.451550	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	RETR	ftp://91.189.88.40/ubuntu/indices	-	-	550	Failed to open file.	-	-	-	-	FR1eEW2CWRjEbw6h14
+1265236195.573898	CyvsxD4JkJzb4cDO12	10.0.0.132	57434	91.189.88.40	21	anonymous	mozilla@example.com	PASV	-	-	-	227	Entering Passive Mode (91,189,88,40,164,68)	T	10.0.0.132	91.189.88.40	42052	FR1eEW2CWRjEbw6h14
+#close	2022-10-10-22-33-44

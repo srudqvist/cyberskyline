@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ftp
+#open	2022-10-10-23-30-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	user	password	command	arg	mime_type	file_size	reply_code	reply_msg	data_channel.passive	data_channel.orig_h	data_channel.resp_h	data_channel.resp_p	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	count	count	string	bool	addr	addr	port	string
+1542268329.335205	CFpRisnCoTRlS2l53	172.23.0.1	59692	172.23.0.17	21	CX3Data	<hidden>	PASV	-	-	-	227	Entering Passive Mode (127,0,0,1,117,48)	T	172.23.0.1	127.0.0.1	30000	-
+1542268333.783501	CFpRisnCoTRlS2l53	172.23.0.1	59692	172.23.0.17	21	CX3Data	<hidden>	PASV	-	-	-	227	Entering Passive Mode (127,0,0,1,117,53)	T	172.23.0.1	127.0.0.1	30005	-
+1542268351.391262	CFpRisnCoTRlS2l53	172.23.0.1	59692	172.23.0.17	21	CX3Data	<hidden>	PASV	-	-	-	227	Entering Passive Mode (127,0,0,1,117,52)	T	172.23.0.1	127.0.0.1	30004	-
+1542268351.391497	CFpRisnCoTRlS2l53	172.23.0.1	59692	172.23.0.17	21	CX3Data	<hidden>	RETR	ftp://172.23.0.17/./cookiejar/flag.jpg	-	2	226	0.000 seconds (measured here), 362.01 Mbytes per second	-	-	-	-	-
+#close	2022-10-10-23-30-56

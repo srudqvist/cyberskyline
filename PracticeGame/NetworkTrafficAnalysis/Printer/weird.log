@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2022-10-10-23-56-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1210953938.218027	CGRYIPSLolhuDqdfi	10.10.10.49	55341	10.10.10.251	631	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1210953938.257845	CrgXrM2ImHgxeaA2oc	10.10.10.49	55342	10.10.10.251	631	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+#close	2022-10-10-23-56-23
