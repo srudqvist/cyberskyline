@@ -25,3 +25,6 @@
 * Q2: 
 * Q3: Just look in wireshark
 * Q4: myTest contains the data from the packet that started the print-job, `file myTest` returns `HP PCL printer data` `file --mime-type myTest` returns `myTest: application/octet-stream`
+
+
+
