@@ -1,0 +1,118 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2022-09-17-15-23-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1445982240.409360	CcriBkgXIhKaaHju3	10.1.0.217	36701	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FOcsV73dk0Pd46grY7	-	text/html
+1445982240.473267	CciKEq2tnfBawiDjeb	10.1.0.217	40215	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982240.530347	CciKEq2tnfBawiDjeb	10.1.0.217	40215	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FSNQ634DJp1wipxKdb	-	text/html
+1445982240.651166	Cn8iiA3JoED1zwMM9	10.1.0.217	49933	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36659	200	OK	-	-	(empty)	-	-	-	-	-	-	FItOYc2LzVzwlwSmak	-	text/html
+1445982245.800099	CdSgK72927ISwKrcaj	10.1.0.217	36704	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	F547s34KTPvwacZTO9	-	text/html
+1445982246.146263	CzgC4l1DxguNbfXvI3	10.1.0.217	40218	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982246.199496	CzgC4l1DxguNbfXvI3	10.1.0.217	40218	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FGGi3v3XvXDveTcRek	-	text/html
+1445982246.280877	CXRGrl3mLZHfNl1mRi	10.1.0.217	49936	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36679	200	OK	-	-	(empty)	-	-	-	-	-	-	Fg6wSY1kOs6TlRjWi6	-	text/html
+1445982246.411495	CVYxfYKEkJXqN1Ub9	10.1.0.217	36707	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FBUh8T3IPUXFuGrzV3	-	text/html
+1445982246.456771	CvSVa21bvjxfEEuxOg	10.1.0.217	40221	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982246.514336	CvSVa21bvjxfEEuxOg	10.1.0.217	40221	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FXHt7P3Pj44aBWelt3	-	text/html
+1445982251.664380	CVjDZW2nTIkuLHfWka	10.1.0.217	49939	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36633	200	OK	-	-	(empty)	-	-	-	-	-	-	F1799KvXNy2bqYMI7	-	text/html
+1445982251.791431	CFkPQk3y8k5aZJRxK6	10.1.0.217	36710	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FfLEaEPLRTbbXo25i	-	text/html
+1445982252.080674	CgOqL91JvWCUfIw6ri	10.1.0.217	40224	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982252.148745	CgOqL91JvWCUfIw6ri	10.1.0.217	40224	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	F8lHwL2TJsSRUB0Pgd	-	text/html
+1445982252.270775	COrAvAhm72hLtZSo7	10.1.0.217	49942	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36633	200	OK	-	-	(empty)	-	-	-	-	-	-	FHrOsO24ZMSZ7o2hJe	-	text/html
+1445982252.420150	C9030m35dndeJ3gDRb	10.1.0.217	36713	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FZCaiIeJda5CEBFHc	-	text/html
+1445982252.471970	CyKiSD1IpFScWt3Dv9	10.1.0.217	40227	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982252.524299	CyKiSD1IpFScWt3Dv9	10.1.0.217	40227	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FmPlq34u5DS0eW8jzf	-	text/html
+1445982252.650449	CFbQ7p4PRSOX8xGKsg	10.1.0.217	49945	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36659	200	OK	-	-	(empty)	-	-	-	-	-	-	F092QL1m5RXyvp5PJ8	-	text/html
+1445982252.789253	ChQ51r18BcZIF6sHL7	10.1.0.217	36716	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FCjhmt2BEmPPm0wKMi	-	text/html
+1445982252.836936	CvqLaH37O2CK1y3eY9	10.1.0.217	40230	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982252.892319	CvqLaH37O2CK1y3eY9	10.1.0.217	40230	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FAVZ6GMwIsgq5pcZ5	-	text/html
+1445982253.000567	CkCIF3crhDFn3qMwc	10.1.0.217	49948	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36683	200	OK	-	-	(empty)	-	-	-	-	-	-	FtdPIH1jjhwTJ9oGA3	-	text/html
+1445982253.179933	CFTK2E2q9fjdY0rRul	10.1.0.217	36719	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FhC4aC3nQdYQok0084	-	text/html
+1445982253.272349	C6n1J42pqpYRL3NjKc	10.1.0.217	40233	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982258.355013	CatdgS2Wz7fzdelMw2	10.1.0.217	40234	104.236.4.168	80	1	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FuDZqz4LqDn25fD1b	-	text/html
+1445982258.433235	CdumvA2kOua5bpTPi5	10.1.0.217	49952	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36659	200	OK	-	-	(empty)	-	-	-	-	-	-	FK47xa2LAydbBS0LZ7	-	text/html
+1445982258.606100	CneZeT1J48bkY9tH5d	10.1.0.217	36723	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FuDjaH3W9azCeASSC9	-	text/html
+1445982258.657958	Cew9NgnDqDN1qMLud	10.1.0.217	40237	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982258.761835	Cew9NgnDqDN1qMLud	10.1.0.217	40237	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FQUaot4PnX4AwOdTTf	-	text/html
+1445982258.903086	CB31tw2dHWxI6kOrIl	10.1.0.217	49955	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36635	200	OK	-	-	(empty)	-	-	-	-	-	-	FyL7Sy4kEuNTaEX5H3	-	text/html
+1445982259.071554	CJkhkKNqQxa10Dumc	10.1.0.217	36726	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FvGsvX1qWjZUx6DOKb	-	text/html
+1445982259.120143	CdgNuXKa3B8b6FZD8	10.1.0.217	40240	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982259.172981	CdgNuXKa3B8b6FZD8	10.1.0.217	40240	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FGWMnu4x82x7mdUh1b	-	text/html
+1445982264.315499	CFue653XkGQ87DxBrk	10.1.0.217	49958	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36657	200	OK	-	-	(empty)	-	-	-	-	-	-	FxM5TlbJTPGwRHaJh	-	text/html
+1445982264.447303	C6GRAj4wv7Y4zaPLu4	10.1.0.217	36729	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FnJnaa1s6mttQ92Gwh	-	text/html
+1445982269.522846	CpHRPO37U42CwKxNHc	10.1.0.217	40243	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982269.586732	CpHRPO37U42CwKxNHc	10.1.0.217	40243	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FqtLU63X3vQhg943a1	-	text/html
+1445982269.693920	C4XEK745zu6GPT9gf6	10.1.0.217	49961	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36633	200	OK	-	-	(empty)	-	-	-	-	-	-	F8OuIK3Mq72rnpSzuk	-	text/html
+1445982269.819901	CNtwb62GvLcZ1qylMl	10.1.0.217	36732	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FDKhXhONMDNc5rRff	-	text/html
+1445982270.154556	CxAT5gfJdwQqaMTn1	10.1.0.217	40246	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982270.239196	CxAT5gfJdwQqaMTn1	10.1.0.217	40246	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FF5mfZ15LppYfhESp8	-	text/html
+1445982275.385465	CqopGi3GIoBywL5X7c	10.1.0.217	49964	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36624	200	OK	-	-	(empty)	-	-	-	-	-	-	FEVjOI1y1yYqrk4t54	-	text/html
+1445982275.543182	Ckygqr2vOX4YiUM5N4	10.1.0.217	36735	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	Fggezq4qZi3RmFIq3g	-	text/html
+1445982275.590861	CfJ2jB2jW2V3nnOv8k	10.1.0.217	40249	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982275.632602	CfJ2jB2jW2V3nnOv8k	10.1.0.217	40249	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FBXd0S1BWO1rWKfEhj	-	text/html
+1445982275.715986	CzTQqp2H5yHLLj0M72	10.1.0.217	49967	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36633	200	OK	-	-	(empty)	-	-	-	-	-	-	Fl3jsFQD9bnrwM35k	-	text/html
+1445982281.053805	ClNSir1fFqjtlvgXdi	10.1.0.217	36738	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FGtBvO1PH4vSrZG9jj	-	text/html
+1445982286.130900	ChzH4Z2Of6moDG2zm1	10.1.0.217	40252	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982286.184161	ChzH4Z2Of6moDG2zm1	10.1.0.217	40252	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	F3z05s2Y1pyP8eWrQ1	-	text/html
+1445982286.266550	Cs0QGv2tpgj11UX3Na	10.1.0.217	49970	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36685	200	OK	-	-	(empty)	-	-	-	-	-	-	F1BpOD3cqD7ZXdKvL	-	text/html
+1445982286.412482	CGFXUjSv7iagBSLnc	10.1.0.217	36741	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FYpDVs3gIfq9Ce7nJd	-	text/html
+1445982286.487598	Cm49oY1dOd00JG85C3	10.1.0.217	40255	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982291.551975	ChQKN8kXCAxHObrg8	10.1.0.217	40256	104.236.4.168	80	1	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	F9aRII1UAkmNosKPFc	-	text/html
+1445982291.691449	CI5Kqk2hPSUHJqSpT7	10.1.0.217	49974	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36626	200	OK	-	-	(empty)	-	-	-	-	-	-	FzEsZI3gsZpGvIcSrk	-	text/html
+1445982291.820610	CWVnjV37cmpLapeir1	10.1.0.217	36745	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FuhsEz18ogDU7g2EVg	-	text/html
+1445982291.871775	CHzwGx3C9Qgh1yNvm1	10.1.0.217	40259	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982291.936922	CHzwGx3C9Qgh1yNvm1	10.1.0.217	40259	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	Ffz7u93LRL6wEBurLe	-	text/html
+1445982297.092041	CWugxF18xBvJTHwMjl	10.1.0.217	49978	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36683	200	OK	-	-	(empty)	-	-	-	-	-	-	FAVtoq1IJRtJ9E5646	-	text/html
+1445982297.221988	CXwebf1aNni55evg61	10.1.0.217	36749	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	F8AuUU2JHwlD6IVy81	-	text/html
+1445982297.270424	CmLk3e3m1MGv1oAsHg	10.1.0.217	40263	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982297.342066	CmLk3e3m1MGv1oAsHg	10.1.0.217	40263	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FtCvxU26FaEE5uu0Ga	-	text/html
+1445982297.505000	C8QHbe4QaL7T0FcSL3	10.1.0.217	49981	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36635	200	OK	-	-	(empty)	-	-	-	-	-	-	Fds6sw28G7mONGBeL1	-	text/html
+1445982297.626935	CJ2sUv4ulYDJaps7Gb	10.1.0.217	36752	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FacQHASh0Z3FpNLWg	-	text/html
+1445982297.677329	CaqFhN12sRJxOkOb9h	10.1.0.217	40266	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982297.793726	CaqFhN12sRJxOkOb9h	10.1.0.217	40266	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FK6LRA2KGPyvrAfYMf	-	text/html
+1445982302.941290	C2MQ2c3Y4Y4DJOGsf	10.1.0.217	49984	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36681	200	OK	-	-	(empty)	-	-	-	-	-	-	FxA2cmwB0xsLBxMS3	-	text/html
+1445982303.098477	Cyy0CC36cfa21bcd8i	10.1.0.217	36755	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	F0zlzX1mOFmJR89bX6	-	text/html
+1445982303.144921	CB32QA1bJwFmT1LGp2	10.1.0.217	40269	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982308.227375	C1jbNe23L2WcB0ToO4	10.1.0.217	40270	104.236.4.168	80	1	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FNOkfm4bFrK0VXGIM9	-	text/html
+1445982308.371500	Cml0N823UEuxmTCHug	10.1.0.217	49988	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36670	200	OK	-	-	(empty)	-	-	-	-	-	-	FgVcNu3BE0HTQZKhph	-	text/html
+1445982308.507699	C7yxcg2Aco8eloyPg4	10.1.0.217	36759	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FmqGM22skflgImV7b3	-	text/html
+1445982308.553043	C1fv2s2PllkZovS1wf	10.1.0.217	40273	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982308.610573	C1fv2s2PllkZovS1wf	10.1.0.217	40273	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FGuTUY1O09ZS5IugT1	-	text/html
+1445982308.745324	CRwtWN2PEXHnVe9Iq7	10.1.0.217	49991	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36659	200	OK	-	-	(empty)	-	-	-	-	-	-	F2Q7gO1JUjTjeeKQQ2	-	text/html
+1445982308.907710	CUXqnyQ8DL4WSdP5h	10.1.0.217	36762	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FUursY3zMI6Ga4tGya	-	text/html
+1445982309.013884	CiJ5TlM55Df60Z1ng	10.1.0.217	40276	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982309.102198	CiJ5TlM55Df60Z1ng	10.1.0.217	40276	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FxNQJa2SCEnJqCoFEh	-	text/html
+1445982309.236923	C9Frra2M8jBNU2sLwh	10.1.0.217	49994	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36681	200	OK	-	-	(empty)	-	-	-	-	-	-	FVW8wy3XiUPOCqbDfh	-	text/html
+1445982309.364621	CENuWe2nUtJUMCM0Uh	10.1.0.217	36765	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FxPaaX2w2CRyG4VAE9	-	text/html
+1445982309.410607	C2ZlvA4fslhqRnWZqc	10.1.0.217	40279	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982309.472749	C2ZlvA4fslhqRnWZqc	10.1.0.217	40279	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FQGCV61OXvmDGju7A5	-	text/html
+1445982309.554376	CqGqli4AVLvTOFlbf1	10.1.0.217	49997	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36687	200	OK	-	-	(empty)	-	-	-	-	-	-	F67y6915TVPHEF88j	-	text/html
+1445982309.686429	CqM9uS1oHRxXaU8Zod	10.1.0.217	36768	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FRFDae2vBt3t5eP57f	-	text/html
+1445982309.732928	CS1lRCmUWkEnhPXfj	10.1.0.217	40282	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982309.774052	CS1lRCmUWkEnhPXfj	10.1.0.217	40282	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	Fr3pD44EuIxybe5jf5	-	text/html
+1445982310.102866	CcTBiy1aGEwlpV3TZj	10.1.0.217	50000	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36653	200	OK	-	-	(empty)	-	-	-	-	-	-	FlYE103CqBOMi13zd5	-	text/html
+1445982310.252353	CZGUs14lbuHqzkeH38	10.1.0.217	36771	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	F1gqVB13nabGQqxt5h	-	text/html
+1445982310.297451	CdheYN348I3PizWADd	10.1.0.217	40285	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982310.358064	CdheYN348I3PizWADd	10.1.0.217	40285	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FtMFi82sn0s7REaL99	-	text/html
+1445982310.502046	CZuCKt1dKOL1Cg0zdk	10.1.0.217	50003	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36650	200	OK	-	-	(empty)	-	-	-	-	-	-	FFBl1V1It7R6y09hwi	-	text/html
+1445982310.620772	CsLm382dGBIdPXeHIf	10.1.0.217	36774	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FLO5mnwp5zNAFbWp3	-	text/html
+1445982310.666149	CC13us13Q3vGH81Sfj	10.1.0.217	40288	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982310.732506	CC13us13Q3vGH81Sfj	10.1.0.217	40288	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FXtrSb3QXrz1KPuk4e	-	text/html
+1445982310.989491	CrEyUl3lGxhMO8E0qc	10.1.0.217	50006	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36705	200	OK	-	-	(empty)	-	-	-	-	-	-	FtRq1A3txmgjKZZ7pa	-	text/html
+1445982311.263674	CJIPEB2SfZAwtgczGf	10.1.0.217	36777	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	FoDNN24SeCWE4NBdW8	-	text/html
+1445982311.309324	C87VN93uUHe5elcfr7	10.1.0.217	40291	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982311.363520	C87VN93uUHe5elcfr7	10.1.0.217	40291	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FgyvkSFznJXqXFdWa	-	text/html
+1445982311.495012	C09CYgXh9hLnjfI98	10.1.0.217	50009	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36635	200	OK	-	-	(empty)	-	-	-	-	-	-	FTCoeI1zKCSsHixxgl	-	text/html
+1445982311.621042	CFYqOA1MGhFL8xxSw7	10.1.0.217	36780	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	F7U4Y34puZ2NSQ9CPb	-	text/html
+1445982311.667476	CmIHG03Qz8xueL3NXc	10.1.0.217	40294	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982311.726827	CmIHG03Qz8xueL3NXc	10.1.0.217	40294	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FVC4ro4SpUBumGs94k	-	text/html
+1445982312.057981	C5CHIn3EnWhC4SNdZg	10.1.0.217	50012	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36663	200	OK	-	-	(empty)	-	-	-	-	-	-	FPW6Ib143gMbxClyMd	-	text/html
+1445982312.285938	CLm7Gx3jH7tUQZjHcf	10.1.0.217	36783	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	Fslr9y1q0934fPLbk3	-	text/html
+1445982312.331618	Cob5MA1AoWUkPQ1iZ4	10.1.0.217	40297	104.236.4.168	80	1	GET	www.cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	0	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1445982312.372203	Cob5MA1AoWUkPQ1iZ4	10.1.0.217	40297	104.236.4.168	80	2	GET	cyberskyline.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	23451	200	OK	-	-	(empty)	-	-	-	-	-	-	FTNLwA4pMSx2Qdl6Q5	-	text/html
+1445982312.451020	CD7VUW3KiJIgINBRq7	10.1.0.217	50015	204.79.197.203	80	1	GET	www.msn.com	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	36657	200	OK	-	-	(empty)	-	-	-	-	-	-	FzUYCs4L03wFXB5IFh	-	text/html
+1445982312.583378	CpBxdO3V7X0Uq1Jdbf	10.1.0.217	36786	206.188.193.91	80	1	GET	www.nationalcyberleague.org	/	-	1.1	Wget/1.16 (linux-gnu)	-	0	277	200	OK	-	-	(empty)	-	-	-	-	-	-	F6a0u81TFFP0uR1Gfg	-	text/html
+#close	2022-09-17-15-23-05
