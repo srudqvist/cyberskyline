@@ -27,4 +27,22 @@
 * Q4: myTest contains the data from the packet that started the print-job, `file myTest` returns `HP PCL printer data` `file --mime-type myTest` returns `myTest: application/octet-stream`
 
 
+## Exploit (Hard)
+
+### What is the IP address of the CMS server?
+.22  
+
+### What is the name of the CMS software that is seen in the packet capture?
+
+### What is the password that the hacker used to successfully log in to the CMS?
+
+### What is the IP address of the attacker?
+cat conn.log | zeek-cut id.orig_h id.resp_h proto  
+172.17.0.1  
+
+### What version of the CMS was running at the time of the packet capture (be as specific as possible)?
+
+### What is the CVE of the vulnerability that the hacker exploited?
+
+### What is the first packet number where the hacker makes a request that causes unintended behavior on the server?
 
