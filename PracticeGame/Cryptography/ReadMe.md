@@ -14,6 +14,10 @@ svw twyyw yz vutww svw sy zsuut
 
 sde 
 
+try pigpen cipher
+https://www.boxentriq.com/code-breaking/pigpen-cipher
+
+
 
 ## Stego
 
